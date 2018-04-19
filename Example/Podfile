@@ -2,7 +2,15 @@ use_frameworks!
 
 target 'RACKeyboard_Example' do
   pod 'RACKeyboard', :path => '../'
-
+  pod 'Then'
+  pod 'UITextView+Placeholder'
+  pod 'ReusableKit'
+  pod 'SnapKit'
+  pod 'ManualLayout'
+  pod 'SwiftyColor'
+  pod 'SwiftyImage'
+  pod 'CGFloatLiteral'
+  
   target 'RACKeyboard_Tests' do
     inherit! :search_paths
 
